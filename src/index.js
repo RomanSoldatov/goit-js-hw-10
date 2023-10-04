@@ -27,7 +27,6 @@ function BreedsSearch() {
     })
     .catch(err => {
       Notify.failure('Oops! Something went wrong! Try reloading the page!');
-      breedList.innerHTML = '';
       catInfoBox.innerHTML = '';
     });
 }
@@ -58,7 +57,6 @@ function OnSelectSet(event) {
     })
     .catch(err => {
       Notify.failure('Oops! Something went wrong! Try reloading the page!');
-      breedList.innerHTML = '';
       catInfoBox.innerHTML = '';
     });
 }
